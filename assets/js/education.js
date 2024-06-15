@@ -7,7 +7,7 @@ const moocscards = [
   {
     title: "Data Science",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    // moocLink: "https://www.coursera.org/browse/data-science",
   },
   {
     title: "Cryptography",
