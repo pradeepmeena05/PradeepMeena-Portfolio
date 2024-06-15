@@ -5,40 +5,17 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+   {
+    title: "Task Manager",
+    cardImage: "assets/images/project-page/battery.png",
+    description: "Built battery life calculator using Python.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "",
   },
-  {
-    title: "Chess Engine",
-    cardImage: "assets/images/project-page/chess.jpg",
-    description: "A chess engine for a popular game dev engine.",
-    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Flappy Bird",
-    cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Exercise Tracker",
-    cardImage: "assets/images/project-page/exercise.jpg",
-    description: "Exercise tracker built using basic redux.",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Recipe Ingredient Parser",
+    {
+    title: "To Do App",
     cardImage: "assets/images/project-page/recipe.jpg",
     description: "Recipe Ingredient Parser built using JavaScript.",
     tagimg:
@@ -47,24 +24,47 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Poker Game",
+    title: "Rock Paper Scissor Game",
+    cardImage: "assets/images/project-page/quiz.jpg",
+    description: "A quiz app built using basic react.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Calorie Counter",
+    cardImage: "assets/images/project-page/chess.jpg",
+    description: "A chess engine for a popular game dev engine.",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Role Play Game",
+    cardImage: "assets/images/project-page/flappybird.png",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Spotify Clone",
+    cardImage: "assets/images/project-page/exercise.jpg",
+    description: "Exercise tracker built using basic redux.",
+    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: " Survey Form",
     cardImage: "assets/images/project-page/poker.jpg",
     description: "Poker game built using typescript.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "",
     Githublink: "",
   },
-  {
-    title: "Tic Tac Toe Game",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
-    description:
-      "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Personal Book Library",
+   {
+    title: "Documentation Page",
     cardImage: "assets/images/project-page/book.png",
     description: "Personal book library app built using JavaScript.",
     tagimg:
@@ -73,30 +73,30 @@ const projects = [
     Githublink: "",
   },
   {
+    title: "Netflix Clone",
+    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
+    description: "Built using Tensorflow.",
+    tagimg:
+      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+/*  {
+    title: "Tic Tac Toe Game",
+    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    description:
+      "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  }, 
+   {
     title: "Minesweeper Game",
     cardImage: "assets/images/project-page/minesweeper.jpg",
     description:
       "Minesweeper Game built using python Object Oriented Programming.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Battery Life Calculator",
-    cardImage: "assets/images/project-page/battery.png",
-    description: "Built battery life calculator using Python.",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Movie Recommendation System",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "Built using Tensorflow.",
-    tagimg:
-      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
     Previewlink: "",
     Githublink: "",
   },
@@ -108,7 +108,8 @@ const projects = [
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "",
-  },
+  }, 
+  */
 ];
 
 // function for rendering project cards data
