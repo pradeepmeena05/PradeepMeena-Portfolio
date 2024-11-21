@@ -6,68 +6,38 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Data Structure and Algorithm in java",
-    cardImage: "assets/images/education-page/ac.png",
-    moocLink: "https://drive.google.com/file/d/1EKMWXYBU-60f2t-MqqZuXffcArh2x0f-/view?usp=sharing",
+    cardImage: "assets/images/education-page/DSAJAVA.png",
+    moocLink: "https://drive.google.com/file/d/1RzSOEtYK1eW2p1Zmq0L0JxLMPqEhyIYY/view?usp=sharing",
   },
   {
-    title: "Generative AI",
-    cardImage: "assets/images/education-page/li.png",
-    moocLink: "https://drive.google.com/file/d/1zZ-zneLIrti5Fqii3weBSUsGXVxkKj_-/view?usp=sharing",
+    title: "C Programming",
+    cardImage: "assets/images/education-page/C.jpg",
+    moocLink: "https://drive.google.com/file/d/1Mfhomd-CYJ5uEgsYNzfNetcyDQq_AxON/view?usp=sharing",
   },
     {
-    title: "AWS Academy Cloud Foundation",
-    cardImage: "assets/images/education-page/ma.png",
-    moocLink: "https://drive.google.com/file/d/16MygvpNPMC8yrh0IBloumT9zh9zz3RCH/view?usp=sharing",
+    title: "Java Programing",
+    cardImage: "assets/images/education-page/Java.jpg",
+    moocLink: "https://drive.google.com/file/d/145zOFTXgAZMdI0tC81BwMP6L2pxlbqRb/view?usp=sharing",
   },
   {
-    title: "Interview Skills",
-    cardImage: "assets/images/education-page/tcs.png",
-    moocLink: "https://drive.google.com/file/d/1HIorsPDgQOm29bZFDoO7UoMF6qdb9f8M/view?usp=sharing",
+    title: "JavaScript",
+    cardImage: "assets/images/education-page/JS.jpeg",
+    moocLink: "https://drive.google.com/file/d/1eq4L5aQ-n92nzK5XjHJTe-WJG26jBgAs/view?usp=sharing",
   },
 
   {
-    title: "Introduction to HTML and CSS",
-    cardImage: "assets/images/education-page/cc.png",
-    moocLink: "https://drive.google.com/file/d/1DQH5iikYwJ6-au8obvxpfSvdj_SATYOz/view?usp=sharing",
+    title: "Code Clash",
+    cardImage: "assets/images/education-page/CC.jpeg",
+    moocLink: "https://drive.google.com/file/d/1Bft7o69oUBE2QyBf0bk51CmfM3SlsNp2/view?usp=sharing",
   },
   {
-    title: "Basic of Java",
-    cardImage: "assets/images/education-page/cn.png",
-    moocLink: "https://drive.google.com/file/d/1HH7aHYIIH6Wbbu4Q5zvEIEj20y0CN1q8/view?usp=sharing",
-  },
-  {
-    title: "Introduction of Iot",
-    cardImage: "assets/images/education-page/su.png",
-    moocLink: "https://drive.google.com/file/d/1Nj-BsyA4r2rUtf_3TFIXUXZqRtGw5AU0/view?usp=sharing",
+    title: "Cloud Gen AI",
+    cardImage: "assets/images/education-page/AI.png",
+    moocLink: "https://drive.google.com/file/d/11RdAD7M3z5ZPIu4I6a5aXrHqvVipMDzD/view?usp=sharing",
   },
   
-  /* {
-    title:"Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },*/
+  
+  
 ];
 
 const experience = [
